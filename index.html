@@ -1,36 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASSIGNMENT_2</title>
+    <title>Kids Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce4e831da4.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<marquee scrollamount="5" loop="5" behavior="scroll" direction="left"> Welcome to our website. </marquee>
+<body class="font-size">
     <header>
-        <div class="navbar">
-            <div class="box"><h3>school</h3></div>
-            <div class="box">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Facilities</li>
-                    <li>Admission</li>
-                </ul>
-                <div class="box"><button>Contact</button></div>
-            <div>
-            <!-- <div class="box"><button>Contact</button></div> -->
-        </div>
-        <div>
-            <div></div>
-            <div></div>
-        </div>
+        <nav class="nav-parent display-flex">
+            <div class="logo-section display-flex">
+                <img class="nav-logo" src="images/logo.png" alt="A logo">
+                <h2 class="school">SCHOOL</h2>
+
+            </div>
+            <ul class="nav-links display-flex">
+                <li class="nav-item"><a href="" class="nav-link"><span class="orange">Home</span></li></a>
+                <li class="nav-item"><a href="" class="nav-link"><span class="sky-blue">About</span></a></li>
+                <li class="nav-item"><a href="" class="nav-link"><span class="facilities">Facilities</span></a></li>
+                <li class="nav-item"><a href="" class="nav-link"><span class="admission">Admission</span></a></li>
+            </ul>
+            <button class="nav-button">Contact </button>
+            <h1 class="hidden-icon"><i class="fa-solid fa-bars"></i></h1>
+
+        </nav>
+        <hr class="horizontal">
+        <section class="banner">
+            <div class="banner-parent">
+                <div>
+                    <h1 class="banner-title"><span class="orange">Empowering</span><br>
+                        students from small age <span class="sky-blue">towards vision</span></h1>
+                    <p class="banner-description">With the courage, Confidence, Creativity and Compassion to make their
+                        Unique Contribution in
+                        a Diverse and Dynamic World.</p>
+                    <button class="banner-button">Enroll Now</button>
+                </div>
+
+                <img src="images/hero-kids.png" alt="" class="banner-img">
+            </div>
+        </section>
+
     </header>
     <main>
+        <h1 class="curriculum">Standard Curriculum</h1>
+        <div class="card-container">
+            <div class="card-1">
+                <img src="images/kinder.png" alt="">
+                <h3 class="card-title">Kinder (3-6) Years</h3>
+                <p class="card-description">Kinder, or pre-school, for children ages 3–6 years focuses on a child so the
+                    kinder child is.</p>
+                <a href="">Read More</a>
+            </div>
+
+            <div class="card-2">
+                <img src="images/elementary.png" alt="">
+                <h3 class="card-title">Elementary School</h3>
+                <p class="card-description">Welcome to Bangladesh Elementary School. Bangladesh Elementary</p>
+                <a href="">Read More</a>
+            </div>
+
+            <div class="card-3">
+                <img src="images/middle.png" alt="">
+                <h3 class="card-title">Middle (10-16) Years</h3>
+                <p class="card-description">Middle (10-16) Years. Cum sociis natoque penatibus et magnis dis</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+        
+        <div class="arrow">
+            <div class="ball"><span class="iconn"><i class="fa-solid fa-less-than"></i></span></div>
+            <div class="ball2"><span class="iconn"><i class="fa-solid fa-greater-than"></i></span></div>
+        </div>
+        
+
+        <section class="our-stories-section">
+            <h1 class="our-story">Our Stories</h1>
+
+            <div class="parent-stories-card">
+                <div class="card-a-total">
+                    <div class="classroom-card-a">
+                        <img src="images/story-1.png" alt="">
+                        <button class="card-button-a soft-blue">November 19, 2019</button>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="card-a-title">A fun toddler coloring traininon
+                            classroom</h2>
+                        <p class="card-a-des">Beautiful branding for changes by Never Now in Australia.
+                            changes is a platform for open discussion in an inclusive and
+                            collaborative environment, providing the... </p>
+                    </div>
+
+                </div>
+                <div class="fourth-card-container">
+                    <div class="card-b">
+                        <img src="images/story-2.png" alt="">
+                        <button class="card-button light-green">November 19, 2019</button>
+                        <h2 class="fourth-card-content">Find out if a school fits thefamily’s needs</h2>
+                    </div>
+                    <div class="card-b">
+                        <img src="images/story-3.png" alt="">
+                        <button class="card-button purple">November 19, 2019</button>
+                        <h2 class="fourth-card-content">Summer math & literacy centres for kids</h2>
+                    </div>
+                    <div class="card-b">
+                        <img src="images/story-4.png" alt="">
+                        <button class="card-button light-green">September 10, 2019</button>
+                        <h2 class="fourth-card-content">Classroom management techniques for new tutors</h2>
+                    </div>
+                    <div class="card-b">
+                        <img src="images/story-5.png" alt="">
+                        <button class="card-button light-green">July 19, 2019</button>
+                        <h2 class="fourth-card-content">Conversation rhymes
+                            improve kids listening</h2>
+
+                    </div>
+                </div>
+            </div>
+            <button class="view-button">View All</button>
+        </section>
 
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="parent-div">
+            <div class="footer-logo-container">
+                <div class="logo-kids">
+                    <img src="images/logo.png" alt="">
+                    <h2 class="logos-title">Kid Education</h2>
+                </div>
+                <p>
+                    Caring Kids Preschool is excited to partner with Valley Forge Baptist Academy to provide enriching
+                    cognitive experiences to grow both your child’s.
+                </p>
+            </div>
+            <div class="footer-about-container">
+                <h2 class="scl-title">About School</h2>
+                <ul class="scl-lists">
+                    <li class="scl-list"> <a href="" class="scl-list-link"></a>Home </li>
+                    <li class="scl-list"><a href="" class="scl-list-link"></a> About</li>
+                    <li class="scl-list"><a href="" class="scl-list-link"></a> Facilities</li>
+                    <li class="scl-list"><a href="" class="scl-list-link"></a> Admission</li>
+                </ul>
+            </div>
+            <div class="logo-container">
+                <h2>Keep In Touch</h2>
+                <div class="logos">
+                    <img src="images/fb.png" alt="logo of facebook">
+                    <img src="images/dribble.png" alt="logo of dribble">
+                    <img src="images/twitter.png" alt="logo of twitter">
+                    <img src="images/google+.png" alt="logo of google">
+                </div>
+            </div>
+        </div>
     </footer>
+
+    
+    <!-- <marquee scrollamount="5" loop="5" behavior="scroll" direction="left"> Welcome to our website. </marquee> -->
 </body>
+
 </html>
